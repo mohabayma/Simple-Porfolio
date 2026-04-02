@@ -754,6 +754,75 @@ overflow: hidden;
     opacity: 1;
     transform: translateX(0);
 }
+
+.linkedin-btn {
+    background: rgba(37, 124, 211, 0.1);
+    border: 1px solid rgba(37, 211, 102, 0.2);
+    padding: 24px;
+    border-radius: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    transition: all 0.3s ease;
+}
+.linkedin-btn:hover {
+    background: rgba(37, 150, 211, 0.2);
+}
+.linkedin-left {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+}
+.linkedin-icon {
+    background: #258dd3;
+    padding: 12px;
+    border-radius: 8px;
+    color: #fff;
+}
+.linkedin-btn h4 {
+    color: #fff;
+    font-weight: 500;
+    margin-bottom: 2px;
+}
+.linkedin-btn p {
+    color: #9ca3af;
+    font-size: 14px;
+}
+
+
+.github-btn {
+    background: rgba(37, 141, 211, 0.1);
+    border: 1px solid rgba(37, 211, 102, 0.2);
+    padding: 24px;
+    border-radius: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    transition: all 0.3s ease;
+}
+.github-btn:hover {
+    background: rgba(37, 156, 211, 0.2);
+}
+.github-left {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+}
+.github-icon {
+    background: #2825d3;
+    padding: 12px;
+    border-radius: 8px;
+    color: #fff;
+}
+.github-btn h4 {
+    color: #fff;
+    font-weight: 500;
+    margin-bottom: 2px;
+}
+.github-btn p {
+    color: #9ca3af;
+    font-size: 14px;
+}
 @media (max-width: 1024px) {
     .contact-grid {
         grid-template-columns: 1fr;
